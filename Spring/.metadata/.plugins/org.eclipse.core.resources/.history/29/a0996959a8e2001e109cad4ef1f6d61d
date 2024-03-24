@@ -1,0 +1,18 @@
+package springex;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class student {
+	@Autowired
+	private Emailservice emailservice;
+	@Autowired
+	 private Javacourseservice javacourseservice;
+	
+	public void details()
+	 {
+		 emailservice.message();
+		 javacourseservice.courseInfo();
+}
+}

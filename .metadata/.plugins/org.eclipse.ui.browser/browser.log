@@ -1,0 +1,12 @@
+
+Mar 13, 2024 08:50:21.08 NEW SESSION
+Mar 13, 2024 08:50:21.08 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 13, 2024 08:52:00.44 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Mar 13, 2024 09:19:41.82 NEW SESSION
+Mar 13, 2024 09:19:41.83 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 13, 2024 09:21:16.51 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 13, 2024 09:22:24.98 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Mar 13, 2024 09:35:46.71 NEW SESSION
+Mar 13, 2024 09:35:46.72 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.

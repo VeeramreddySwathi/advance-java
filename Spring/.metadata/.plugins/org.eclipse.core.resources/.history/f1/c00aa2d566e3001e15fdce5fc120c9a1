@@ -1,0 +1,22 @@
+package springex;
+
+public class Doctor {
+   private int id;
+   private String name;
+   Doctor doctor;
+   Phamarcy phamarcy;
+
+public Doctor(int id, String name, Doctor doctor, Phamarcy phamarcy) {
+	super();
+	this.id = id;
+	this.name = name;
+	this.doctor = doctor;
+	this.phamarcy = phamarcy;
+}
+  public void doctorInfo()
+   {
+   System.out.println("hey"+id+"welcome to java");
+   System.out.println("hey"+name+"welcome to java");
+   
+}
+}

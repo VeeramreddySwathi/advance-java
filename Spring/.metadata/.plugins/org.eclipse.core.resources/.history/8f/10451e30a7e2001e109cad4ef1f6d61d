@@ -1,0 +1,37 @@
+package springex;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+import springex.springex.Student;
+
+
+@Configuration
+public class Javaconfig {
+	
+	
+	@Bean
+	public Emailservice  emailservice()
+	{
+		Emailservice emailservice=new Emailservice();
+		return emailservice;
+	}
+	@Bean
+	public Javacourseservice javacourseservice()
+	{
+		Javacourseservice javacourseservice=new Javacourseservice();
+		return javacourseservice;
+	}
+		@Bean
+		public student student()
+		{
+			Student student=new Student(emailservice(),javacourseservice());
+		
+		return student;
+		
+		}
+	}
+
+
